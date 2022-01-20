@@ -50,7 +50,7 @@ def main():
             bone_left = bone[0]
             bone_right = bone[1]
             if bone_left == table[0][0]:
-                new_domino = bone_right + bone_left
+                new_domino = bone_right + bone_left #flips domino, should go in domino.py
                 table.insert(0,new_domino)
             elif bone_right == table[0][0]:
                 table.insert(0, bone)
