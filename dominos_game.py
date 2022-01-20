@@ -39,6 +39,7 @@ def main():
     table = create_table(initial_bone)
 
     while len(boneyard)>0:
+        #while there s nothing in the boneyard, play the game
         show_dominoes_on_table(table)
         show_player(player)
 
